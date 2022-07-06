@@ -393,13 +393,6 @@ body {
 }
 
 /*  =================Contact/Email Section End */
-.social-icon {
-  padding-top: 30px;
-  width: 40px;
-  padding-left: 10px;
-}
-
-.social-icon {}
 
 /*  =================Footer Section Start */
 
@@ -428,6 +421,12 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   color: dimgray;
+}
+
+.social-icon {
+  padding-top: 30px;
+  width: 40px;
+  padding-left: 10px;
 }
 
 /*  =================Footer Section End */

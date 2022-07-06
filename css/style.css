@@ -1,6 +1,9 @@
 /* Google Font: Font Name: Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
 
 
@@ -40,7 +43,10 @@ body {
 }
 
 .gradient {
-  color: #FF5959;
+  background-image: linear-gradient(90deg, #FF5959, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn {
@@ -90,28 +96,33 @@ body {
 
 .counter {
   text-align: center;
-  margin-left: 230px;
+  margin-left: 220px;
 }
 
 .counter .card {
   background-color: white;
-  box-shadow: 10px 10px 50px;
   border-radius: 5px;
   font-size: 30px;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.3);
   float: left;
   text-align: center;
   font-family: 'Inter', sans-serif;
   padding: 30px;
   margin-bottom: 120px;
+  margin-left: 10px;
 }
 
 .card:hover {
   background-color: #FF5959;
+  transition: all 0.2s ease-in;
+
 }
 
 #special {
   background-color: #FF5959;
-  border: 1px solid red;
+  border: 1px solid #FF5959;
+  border-radius: 8px;
+
 }
 
 .amount {
@@ -128,6 +139,7 @@ body {
   text-align: center;
   padding-top: 10px;
   border: none;
+  outline: none;
   border-bottom: 1px solid dimgray;
 
 }
@@ -160,24 +172,33 @@ body {
 
 .why-donate {
   display: flex;
-  width: 100%;
   height: 100%;
-  margin-bottom: 60px;
+  padding: 60px 60px;
+  margin-bottom: 150px;
+}
+
+.active {
+  background-color: aliceblue;
 }
 
 .donation-sector {
   width: 30%;
-  background-color: aliceblue;
-  padding: 20px 20px;
-  margin-left: 60px;
-  margin-right: 60px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 80px 50px;
+  margin-left: 20px;
+  box-shadow: 0px 30px 60px -30px;
   border-radius: 5px;
+
 }
 
 .donation-sector h1 {
   font-family: 'Inter', sans-serif;
   color: #FF5959;
+}
+
+.donation-sector p {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: dimgray;
 }
 
 .image-title {
@@ -211,7 +232,6 @@ body {
 .focus-img {
   width: 100%;
   height: 200px;
-  border-radius: 5px;
 }
 
 .focus-area {
@@ -223,11 +243,10 @@ body {
 
 .focus-content {
   width: 23%;
-  /* padding: 20px; */
   background-color: aliceblue;
   margin-left: 10px;
   margin-right: 10px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 60px;
   border-radius: 5px;
   padding-bottom: 30px;
 }
@@ -256,11 +275,13 @@ body {
 
 .contact-area {
   text-align: center;
-  padding: 50px 400px;
+  padding: 40px 400px;
 
 }
 
 .contact-area h1 {
+  margin-left: 60px;
+  text-align: center;
   font-size: 45px;
   color: #FF5959;
   text-decoration: none;
@@ -308,10 +329,13 @@ body {
 
 .footer h1 {
   font-size: 45px;
-  color: #FF5959;
   text-decoration: none;
   font-weight: 800;
   font-family: 'Inter', sans-serif;
+  background-image: linear-gradient(90deg, #FF5959, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'The Nautigal', cursive;
 }
 
 .footer p {

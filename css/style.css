@@ -11,6 +11,8 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .header-bg {
@@ -101,6 +103,7 @@ body {
 
 .counter .card {
   background-color: white;
+  color: #FF5959;
   border-radius: 5px;
   font-size: 30px;
   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.3);
@@ -114,13 +117,15 @@ body {
 
 .card:hover {
   background-color: #FF5959;
+  color: white;
   transition: all 0.2s ease-in;
 
 }
 
 #special {
   background-color: #FF5959;
-  border: 1px solid #FF5959;
+  color: white;
+
   border-radius: 8px;
 
 }
@@ -271,6 +276,7 @@ body {
 
 .focused-text {
   padding: 10px 20px;
+  text-align: justify;
 }
 
 .contact-area {
@@ -304,20 +310,18 @@ body {
 .fields {
   background-color: rgb(255 89 89 / 8%);
   width: 100%;
-  padding: 30px;
+  padding: 20px;
 }
 
 .fields input {
   border: none;
   text-decoration: none;
-  text-align: center;
   width: 50%;
   height: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-left: 20px;
-  margin: 0;
-  padding: 0;
+  padding-left: 10px;
   background-color: #D9D9D9;
 }
 
